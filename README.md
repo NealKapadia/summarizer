@@ -176,7 +176,6 @@ Commodity cost was ~$240.
   author = {Wing Lian and Bleys Goodson and Guan Wang and Eugene Pentland and Austin Cook and Chanvichet Vong and "Teknium"},
   year = {2023},
   publisher = {HuggingFace},
-  journal = {HuggingFace repository},
   url = {https://huggingface.co/Open-Orca/Mistral-7B-SlimOrca}
 }
 @misc{mukherjee2023orca,
