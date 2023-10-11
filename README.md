@@ -177,7 +177,7 @@ Commodity cost was ~$240.
   year = {2023},
   publisher = {HuggingFace},
   journal = {HuggingFace repository},
-  howpublished = {\url{https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca},
+  url = {https://huggingface.co/Open-Orca/Mistral-7B-SlimOrca}
 }
 @misc{mukherjee2023orca,
       title={Orca: Progressive Learning from Complex Explanation Traces of GPT-4}, 
