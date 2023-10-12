@@ -178,6 +178,13 @@ Commodity cost was ~$240.
   publisher = {HuggingFace},
   url = {https://huggingface.co/Open-Orca/Mistral-7B-SlimOrca}
 }
+@misc{SlimOrca,
+  title = {SlimOrca: An Open Dataset of GPT-4 Augmented FLAN Reasoning Traces, with Verification},
+  author = {Wing Lian and Guan Wang and Bleys Goodson and Eugene Pentland and Austin Cook and Chanvichet Vong and "Teknium"},
+  year = {2023},
+  publisher = {HuggingFace},
+  url = {https://https://huggingface.co/Open-Orca/SlimOrca}
+}
 @misc{mukherjee2023orca,
       title={Orca: Progressive Learning from Complex Explanation Traces of GPT-4}, 
       author={Subhabrata Mukherjee and Arindam Mitra and Ganesh Jawahar and Sahaj Agarwal and Hamid Palangi and Ahmed Awadallah},
