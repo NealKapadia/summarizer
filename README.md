@@ -28,7 +28,7 @@ This model is being released as a demonstration of the performance of our new cu
 
 This new dataset release provides an efficient means of reaching performance on-par with using larger slices of our data, while only including ~500k GPT-4 completions.
 
-HF Leaderboard evals place this model as TBD
+HF Leaderboard evals place this model as near parity with our recent [MistralOrca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca) release, which was the #1 model at release time recently.
 
 Codename: "*MistralSlimOrca*"
 
@@ -42,14 +42,6 @@ or check the OpenAccess AI Collective Discord for more information about Axolotl
 
 https://discord.gg/5y8STgB3P3
 
-
-# Quantized Models
-
-Quantized versions of this model are generously made available by [TheBloke](https://huggingface.co/TheBloke).
-
-- AWQ: https://huggingface.co/TheBloke/Mistral-7B-SlimOrca-AWQ
-- GPTQ: https://huggingface.co/TheBloke/Mistral-7B-SlimOrca-GPTQ
-- GGUF: https://huggingface.co/TheBloke/Mistral-7B-SlimOrca-GGUF
 
 
 # Prompt Template
@@ -123,35 +115,6 @@ This is also **98.6%** of *`Llama2-70b-chat`*'s performance!
 | Avg.                  | 65.85 |
 
 We use [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) to run the benchmark tests above, using the same version as the HuggingFace LLM Leaderboard.
-
-
-## AGIEval Performance
-
-We compare our results to the base Mistral-7B model (using LM Evaluation Harness).
-
-We find **tbd** of the base model's performance on AGI Eval, averaging **tbd**.
-As well, we significantly improve upon the official `mistralai/Mistral-7B-Instruct-v0.1` finetuning, achieving **tbd** of their performance.
-
-![AGIEval Performance](https://huggingface.co/Open-Orca/Mistral-7B-SlimOrca/resolve/main/Images/MistralSlimOrca7BAGIEval.png "AGIEval Performance")
-
-## BigBench-Hard Performance
-
-We find **tbd** of the base model's performance on BigBench-Hard, averaging **tbd**.
-
-![BigBench-Hard Performance](https://huggingface.co/Open-Orca/Mistral-7B-SlimOrca/resolve/main/Images/MistralSlimOrca7BBigBenchHard.png "BigBench-Hard Performance")
-
-## GPT4ALL Leaderboard Performance
-
-We ... averaging **tbd**.
-
-![GPT4ALL Performance](https://huggingface.co/Open-Orca/Mistral-7B-SlimOrca/resolve/main/Images/MistralSlimOrca7BGPT4ALL.png "GPT4ALL Performance")
-
-## MT-Bench Performance
-
-MT-Bench uses GPT-4 as a judge of model response quality, across a wide range of challenges.
-We find our performance is *on-par with `Llama2-70b-chat`*, averaging **6.86**.
-
-![MT-Bench Performance](https://huggingface.co/Open-Orca/Mistral-7B-SlimOrca/resolve/main/Images/MistralSlimOrca7BMTBENCH.png "MT-Bench Performance")
 
 
 # Dataset
