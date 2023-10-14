@@ -1,6 +1,6 @@
 ---
 datasets:
-- Open-Orca/OpenOrca
+- Open-Orca/SlimOrca
 language:
 - en
 library_name: transformers
