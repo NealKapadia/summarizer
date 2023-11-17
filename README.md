@@ -165,3 +165,17 @@ Commodity cost was ~$240.
       primaryClass={cs.AI}
 }
 ```
+
+# [Open LLM Leaderboard Evaluation Results](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+Detailed results can be found [here](https://huggingface.co/datasets/open-llm-leaderboard/details_Open-Orca__Mistral-7B-SlimOrca)
+
+| Metric                | Value                     |
+|-----------------------|---------------------------|
+| Avg.                  | 53.34   |
+| ARC (25-shot)         | 62.54          |
+| HellaSwag (10-shot)   | 83.86    |
+| MMLU (5-shot)         | 62.77         |
+| TruthfulQA (0-shot)   | 54.23   |
+| Winogrande (5-shot)   | 77.43   |
+| GSM8K (5-shot)        | 21.38        |
+| DROP (3-shot)         | 11.2         |
